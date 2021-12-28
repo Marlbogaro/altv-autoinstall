@@ -1,3 +1,5 @@
+#!/bin/sh
+
 # Colors   
     NORMAL="\033[0;39m"
     ROUGE="\033[1;31m"
