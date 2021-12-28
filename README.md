@@ -29,7 +29,8 @@ Create the file ```/lib/systemd/system/altv.service``` with any editor of your c
 
 Paste the following snippet inside this file and modify it to your needs. Make sure to change the paths and user/group, otherwise it won't work.
 
-```[Unit]
+```
+[Unit]
 Description=alt:V Server
 After=network.target
 [Service]
@@ -43,7 +44,8 @@ PIDFile=/path/to/your/server/altv.pid
 RestartSec=15
 Restart=always
 [Install]
-WantedBy=multi-user.target```
+WantedBy=multi-user.target
+```
 
 Now save the file and enable the service with
 
