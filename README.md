@@ -51,12 +51,14 @@ Now save the file and enable the service with
 
 ```systemctl enable altv.service```
 
- Congratz! The service has been successfully added. alt:V will now automatically boot with your server and restarts, if it crashes. You also now have access to the following commands:
+Congratz! The service has been successfully added. alt:V will now automatically boot with your server and restarts, if it crashes. You also now have access to the following commands:
 
-```service altv start # start the server
+```
+service altv start # start the server
 service altv stop # stop the server
 service altv status # get the current status of your server with console output
-service altv restart # restart the server```
+service altv restart # restart the server
+```
 
 # WIKI ALT:V
 https://wiki.altv.mp/wiki/Main_Page
