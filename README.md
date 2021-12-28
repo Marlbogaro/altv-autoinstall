@@ -8,3 +8,5 @@ wget https://raw.githubusercontent.com/Marlbogaro/altv-install/main/altv.sh
 chmod +x altv.sh
 ./altv.sh
 ```
+# WIKI ALT:V
+https://wiki.altv.mp/wiki/Main_Page
